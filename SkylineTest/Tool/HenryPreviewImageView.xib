@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HenryPreviewImageView">
+            <connections>
+                <outlet property="contentView" destination="Sq2-th-Vo1" id="AVw-en-HAk"/>
+                <outlet property="deleteButton" destination="R5J-Y2-ON4" id="UcQ-kH-wIP"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Sq2-th-Vo1">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R5J-Y2-ON4">
+                    <rect key="frame" x="329" y="30" width="30" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="30" id="INl-JB-sT2"/>
+                        <constraint firstAttribute="height" constant="30" id="XNt-4p-cY9"/>
+                    </constraints>
+                    <state key="normal" image="error"/>
+                    <connections>
+                        <action selector="deleteButtonClick" destination="-1" eventType="touchUpInside" id="L0a-TR-cnC"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="R5J-Y2-ON4" firstAttribute="top" secondItem="QUi-uV-7fu" secondAttribute="top" constant="10" id="Ldy-07-Qcv"/>
+                <constraint firstItem="QUi-uV-7fu" firstAttribute="trailing" secondItem="R5J-Y2-ON4" secondAttribute="trailing" constant="16" id="R2L-im-fho"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="QUi-uV-7fu"/>
+            <point key="canvasLocation" x="40.5" y="-235.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="error" width="95" height="95"/>
+    </resources>
+</document>

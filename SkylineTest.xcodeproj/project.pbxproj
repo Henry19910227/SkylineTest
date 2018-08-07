@@ -7,14 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D032F2B9E2741AEBB3FA2D2 /* libPods-SkylineTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA5C44501462D6C8BFCB9123 /* libPods-SkylineTest.a */; };
 		6327EE822118CEA40003915B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6327EE812118CEA40003915B /* AppDelegate.m */; };
-		6327EE852118CEA40003915B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6327EE842118CEA40003915B /* ViewController.m */; };
-		6327EE882118CEA40003915B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6327EE862118CEA40003915B /* Main.storyboard */; };
 		6327EE8A2118CEA90003915B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6327EE892118CEA90003915B /* Assets.xcassets */; };
 		6327EE8D2118CEA90003915B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6327EE8B2118CEA90003915B /* LaunchScreen.storyboard */; };
 		6327EE902118CEA90003915B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6327EE8F2118CEA90003915B /* main.m */; };
 		6327EE9A2118CEA90003915B /* SkylineTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6327EE992118CEA90003915B /* SkylineTestTests.m */; };
 		6327EEA52118CEA90003915B /* SkylineTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6327EEA42118CEA90003915B /* SkylineTestUITests.m */; };
+		6327EEBE2118D2F40003915B /* Trip.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6327EEBD2118D2F40003915B /* Trip.storyboard */; };
+		6327EEC42118D6CE0003915B /* APIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6327EEC32118D6CE0003915B /* APIManager.m */; };
+		6327EEC72118D74C0003915B /* TripManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6327EEC62118D74C0003915B /* TripManager.m */; };
+		6327EECA2118DAC20003915B /* TripModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6327EEC92118DAC20003915B /* TripModel.m */; };
+		6327EECD2118DAFA0003915B /* TripViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6327EECC2118DAFA0003915B /* TripViewController.m */; };
+		6327EED02118DB590003915B /* TripCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6327EECF2118DB590003915B /* TripCell.m */; };
+		6327EED32118DBB70003915B /* TripViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6327EED22118DBB70003915B /* TripViewModel.m */; };
+		6327EED621193F2F0003915B /* NSObject+Henry.m in Sources */ = {isa = PBXBuildFile; fileRef = 6327EED521193F2E0003915B /* NSObject+Henry.m */; };
+		6327EEDB211971760003915B /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6327EEDA211971760003915B /* BaseViewController.m */; };
+		6327EEDF211972630003915B /* HenryProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 6327EEDE211972630003915B /* HenryProgressHUD.m */; };
+		6327EEE221197C260003915B /* TripImageItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6327EEE121197C260003915B /* TripImageItemCell.m */; };
+		6327EEEF2119B3060003915B /* HenryPreviewImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6327EEEC2119B3050003915B /* HenryPreviewImageView.xib */; };
+		6327EEF02119B3060003915B /* HenryPreviewImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6327EEEE2119B3050003915B /* HenryPreviewImageView.m */; };
+		6327EEF32119B7D10003915B /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6327EEF22119B7D10003915B /* BaseNavigationController.m */; };
+		6327EEF62119F8650003915B /* NSString+Henry.m in Sources */ = {isa = PBXBuildFile; fileRef = 6327EEF52119F8650003915B /* NSString+Henry.m */; };
+		94341960CDBE890DA33453BE /* libPods-SkylineTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 366A4457BB5A5D00ED3BC11B /* libPods-SkylineTestTests.a */; };
+		FE78B12C0603D7823F7C782B /* libPods-SkylineTestUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A8B0F92ABA746AC20B6D05C7 /* libPods-SkylineTestUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +51,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0060DD5001A9E6D22B354044 /* Pods-SkylineTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkylineTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SkylineTestTests/Pods-SkylineTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		10C5768E8C209FBDAC72B7A7 /* Pods-SkylineTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkylineTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SkylineTest/Pods-SkylineTest.debug.xcconfig"; sourceTree = "<group>"; };
+		366A4457BB5A5D00ED3BC11B /* libPods-SkylineTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SkylineTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6327EE7D2118CEA40003915B /* SkylineTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkylineTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6327EE802118CEA40003915B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6327EE812118CEA40003915B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6327EE832118CEA40003915B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6327EE842118CEA40003915B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		6327EE872118CEA40003915B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6327EE892118CEA90003915B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6327EE8C2118CEA90003915B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6327EE8E2118CEA90003915B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +67,40 @@
 		6327EEA02118CEA90003915B /* SkylineTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkylineTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6327EEA42118CEA90003915B /* SkylineTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SkylineTestUITests.m; sourceTree = "<group>"; };
 		6327EEA62118CEA90003915B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6327EEBD2118D2F40003915B /* Trip.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Trip.storyboard; sourceTree = "<group>"; };
+		6327EEC22118D6CE0003915B /* APIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIManager.h; sourceTree = "<group>"; };
+		6327EEC32118D6CE0003915B /* APIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIManager.m; sourceTree = "<group>"; };
+		6327EEC52118D74C0003915B /* TripManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TripManager.h; sourceTree = "<group>"; };
+		6327EEC62118D74C0003915B /* TripManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TripManager.m; sourceTree = "<group>"; };
+		6327EEC82118DAC20003915B /* TripModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TripModel.h; sourceTree = "<group>"; };
+		6327EEC92118DAC20003915B /* TripModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TripModel.m; sourceTree = "<group>"; };
+		6327EECB2118DAFA0003915B /* TripViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TripViewController.h; sourceTree = "<group>"; };
+		6327EECC2118DAFA0003915B /* TripViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TripViewController.m; sourceTree = "<group>"; };
+		6327EECE2118DB590003915B /* TripCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TripCell.h; sourceTree = "<group>"; };
+		6327EECF2118DB590003915B /* TripCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TripCell.m; sourceTree = "<group>"; };
+		6327EED12118DBB70003915B /* TripViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TripViewModel.h; sourceTree = "<group>"; };
+		6327EED22118DBB70003915B /* TripViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TripViewModel.m; sourceTree = "<group>"; };
+		6327EED421193F2E0003915B /* NSObject+Henry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Henry.h"; sourceTree = "<group>"; };
+		6327EED521193F2E0003915B /* NSObject+Henry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Henry.m"; sourceTree = "<group>"; };
+		6327EED9211971760003915B /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		6327EEDA211971760003915B /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		6327EEDD211972630003915B /* HenryProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HenryProgressHUD.h; sourceTree = "<group>"; };
+		6327EEDE211972630003915B /* HenryProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HenryProgressHUD.m; sourceTree = "<group>"; };
+		6327EEE021197C260003915B /* TripImageItemCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TripImageItemCell.h; sourceTree = "<group>"; };
+		6327EEE121197C260003915B /* TripImageItemCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TripImageItemCell.m; sourceTree = "<group>"; };
+		6327EEEC2119B3050003915B /* HenryPreviewImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HenryPreviewImageView.xib; sourceTree = "<group>"; };
+		6327EEED2119B3050003915B /* HenryPreviewImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HenryPreviewImageView.h; sourceTree = "<group>"; };
+		6327EEEE2119B3050003915B /* HenryPreviewImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HenryPreviewImageView.m; sourceTree = "<group>"; };
+		6327EEF12119B7D10003915B /* BaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		6327EEF22119B7D10003915B /* BaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		6327EEF42119F8650003915B /* NSString+Henry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Henry.h"; sourceTree = "<group>"; };
+		6327EEF52119F8650003915B /* NSString+Henry.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Henry.m"; sourceTree = "<group>"; };
+		661955B6C0B79AC3100F0129 /* Pods-SkylineTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkylineTestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SkylineTestUITests/Pods-SkylineTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A8B0F92ABA746AC20B6D05C7 /* libPods-SkylineTestUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SkylineTestUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADE016FF0B80DDEC127422EA /* Pods-SkylineTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkylineTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SkylineTestTests/Pods-SkylineTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BE1C5A08ED8090CCA6F92453 /* Pods-SkylineTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkylineTestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SkylineTestUITests/Pods-SkylineTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CE6312FBC197BFA58D617116 /* Pods-SkylineTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkylineTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-SkylineTest/Pods-SkylineTest.release.xcconfig"; sourceTree = "<group>"; };
+		DA5C44501462D6C8BFCB9123 /* libPods-SkylineTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SkylineTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D032F2B9E2741AEBB3FA2D2 /* libPods-SkylineTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94341960CDBE890DA33453BE /* libPods-SkylineTestTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +124,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE78B12C0603D7823F7C782B /* libPods-SkylineTestUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2385ECDA3CA794A15FF90496 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA5C44501462D6C8BFCB9123 /* libPods-SkylineTest.a */,
+				366A4457BB5A5D00ED3BC11B /* libPods-SkylineTestTests.a */,
+				A8B0F92ABA746AC20B6D05C7 /* libPods-SkylineTestUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6327EE742118CEA40003915B = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +148,8 @@
 				6327EE982118CEA90003915B /* SkylineTestTests */,
 				6327EEA32118CEA90003915B /* SkylineTestUITests */,
 				6327EE7E2118CEA40003915B /* Products */,
+				D2146BB9BCDDCC34D2FC4D20 /* Pods */,
+				2385ECDA3CA794A15FF90496 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +166,11 @@
 		6327EE7F2118CEA40003915B /* SkylineTest */ = {
 			isa = PBXGroup;
 			children = (
-				6327EE802118CEA40003915B /* AppDelegate.h */,
-				6327EE812118CEA40003915B /* AppDelegate.m */,
-				6327EE832118CEA40003915B /* ViewController.h */,
-				6327EE842118CEA40003915B /* ViewController.m */,
-				6327EE862118CEA40003915B /* Main.storyboard */,
+				6327EEB42118D1240003915B /* Application */,
+				6327EEB22118D0F40003915B /* API */,
+				6327EEB62118D2A30003915B /* Classes */,
+				6327EEBC2118D2B80003915B /* Category */,
+				6327EEDC2119723D0003915B /* Tool */,
 				6327EE892118CEA90003915B /* Assets.xcassets */,
 				6327EE8B2118CEA90003915B /* LaunchScreen.storyboard */,
 				6327EE8E2118CEA90003915B /* Info.plist */,
@@ -132,6 +197,140 @@
 			path = SkylineTestUITests;
 			sourceTree = "<group>";
 		};
+		6327EEB22118D0F40003915B /* API */ = {
+			isa = PBXGroup;
+			children = (
+				6327EEC22118D6CE0003915B /* APIManager.h */,
+				6327EEC32118D6CE0003915B /* APIManager.m */,
+				6327EEC52118D74C0003915B /* TripManager.h */,
+				6327EEC62118D74C0003915B /* TripManager.m */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		6327EEB42118D1240003915B /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				6327EE802118CEA40003915B /* AppDelegate.h */,
+				6327EE812118CEA40003915B /* AppDelegate.m */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		6327EEB62118D2A30003915B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6327EED7211971620003915B /* Base */,
+				6327EEB72118D2A30003915B /* Trip */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6327EEB72118D2A30003915B /* Trip */ = {
+			isa = PBXGroup;
+			children = (
+				6327EEB92118D2A30003915B /* Controller */,
+				6327EEB82118D2A30003915B /* ViewModel */,
+				6327EEBA2118D2A30003915B /* Model */,
+				6327EEBB2118D2A30003915B /* View */,
+			);
+			path = Trip;
+			sourceTree = "<group>";
+		};
+		6327EEB82118D2A30003915B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6327EED12118DBB70003915B /* TripViewModel.h */,
+				6327EED22118DBB70003915B /* TripViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6327EEB92118D2A30003915B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6327EECB2118DAFA0003915B /* TripViewController.h */,
+				6327EECC2118DAFA0003915B /* TripViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6327EEBA2118D2A30003915B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6327EEC82118DAC20003915B /* TripModel.h */,
+				6327EEC92118DAC20003915B /* TripModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6327EEBB2118D2A30003915B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6327EEBD2118D2F40003915B /* Trip.storyboard */,
+				6327EECE2118DB590003915B /* TripCell.h */,
+				6327EECF2118DB590003915B /* TripCell.m */,
+				6327EEE021197C260003915B /* TripImageItemCell.h */,
+				6327EEE121197C260003915B /* TripImageItemCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6327EEBC2118D2B80003915B /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				6327EED421193F2E0003915B /* NSObject+Henry.h */,
+				6327EED521193F2E0003915B /* NSObject+Henry.m */,
+				6327EEF42119F8650003915B /* NSString+Henry.h */,
+				6327EEF52119F8650003915B /* NSString+Henry.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		6327EED7211971620003915B /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				6327EED8211971620003915B /* Controller */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		6327EED8211971620003915B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6327EED9211971760003915B /* BaseViewController.h */,
+				6327EEDA211971760003915B /* BaseViewController.m */,
+				6327EEF12119B7D10003915B /* BaseNavigationController.h */,
+				6327EEF22119B7D10003915B /* BaseNavigationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6327EEDC2119723D0003915B /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				6327EEDD211972630003915B /* HenryProgressHUD.h */,
+				6327EEDE211972630003915B /* HenryProgressHUD.m */,
+				6327EEED2119B3050003915B /* HenryPreviewImageView.h */,
+				6327EEEE2119B3050003915B /* HenryPreviewImageView.m */,
+				6327EEEC2119B3050003915B /* HenryPreviewImageView.xib */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		D2146BB9BCDDCC34D2FC4D20 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				10C5768E8C209FBDAC72B7A7 /* Pods-SkylineTest.debug.xcconfig */,
+				CE6312FBC197BFA58D617116 /* Pods-SkylineTest.release.xcconfig */,
+				ADE016FF0B80DDEC127422EA /* Pods-SkylineTestTests.debug.xcconfig */,
+				0060DD5001A9E6D22B354044 /* Pods-SkylineTestTests.release.xcconfig */,
+				BE1C5A08ED8090CCA6F92453 /* Pods-SkylineTestUITests.debug.xcconfig */,
+				661955B6C0B79AC3100F0129 /* Pods-SkylineTestUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +338,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6327EEA92118CEA90003915B /* Build configuration list for PBXNativeTarget "SkylineTest" */;
 			buildPhases = (
+				A1C02038FC1415F423CA5D85 /* [CP] Check Pods Manifest.lock */,
 				6327EE792118CEA40003915B /* Sources */,
 				6327EE7A2118CEA40003915B /* Frameworks */,
 				6327EE7B2118CEA40003915B /* Resources */,
@@ -156,6 +356,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6327EEAC2118CEA90003915B /* Build configuration list for PBXNativeTarget "SkylineTestTests" */;
 			buildPhases = (
+				E4BF7FAD385C219BA907D6C8 /* [CP] Check Pods Manifest.lock */,
 				6327EE912118CEA90003915B /* Sources */,
 				6327EE922118CEA90003915B /* Frameworks */,
 				6327EE932118CEA90003915B /* Resources */,
@@ -174,6 +375,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6327EEAF2118CEA90003915B /* Build configuration list for PBXNativeTarget "SkylineTestUITests" */;
 			buildPhases = (
+				BA6B3B9ACB8F279709104E38 /* [CP] Check Pods Manifest.lock */,
 				6327EE9C2118CEA90003915B /* Sources */,
 				6327EE9D2118CEA90003915B /* Frameworks */,
 				6327EE9E2118CEA90003915B /* Resources */,
@@ -235,9 +437,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6327EEEF2119B3060003915B /* HenryPreviewImageView.xib in Resources */,
 				6327EE8D2118CEA90003915B /* LaunchScreen.storyboard in Resources */,
+				6327EEBE2118D2F40003915B /* Trip.storyboard in Resources */,
 				6327EE8A2118CEA90003915B /* Assets.xcassets in Resources */,
-				6327EE882118CEA40003915B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +460,83 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A1C02038FC1415F423CA5D85 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SkylineTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA6B3B9ACB8F279709104E38 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SkylineTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4BF7FAD385C219BA907D6C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SkylineTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6327EE792118CEA40003915B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6327EE852118CEA40003915B /* ViewController.m in Sources */,
+				6327EED621193F2F0003915B /* NSObject+Henry.m in Sources */,
+				6327EEF62119F8650003915B /* NSString+Henry.m in Sources */,
+				6327EEDB211971760003915B /* BaseViewController.m in Sources */,
+				6327EECA2118DAC20003915B /* TripModel.m in Sources */,
 				6327EE902118CEA90003915B /* main.m in Sources */,
+				6327EEDF211972630003915B /* HenryProgressHUD.m in Sources */,
 				6327EE822118CEA40003915B /* AppDelegate.m in Sources */,
+				6327EECD2118DAFA0003915B /* TripViewController.m in Sources */,
+				6327EED02118DB590003915B /* TripCell.m in Sources */,
+				6327EEF32119B7D10003915B /* BaseNavigationController.m in Sources */,
+				6327EED32118DBB70003915B /* TripViewModel.m in Sources */,
+				6327EEC72118D74C0003915B /* TripManager.m in Sources */,
+				6327EEF02119B3060003915B /* HenryPreviewImageView.m in Sources */,
+				6327EEC42118D6CE0003915B /* APIManager.m in Sources */,
+				6327EEE221197C260003915B /* TripImageItemCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,14 +572,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6327EE862118CEA40003915B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6327EE872118CEA40003915B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6327EE8B2118CEA90003915B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -431,11 +695,13 @@
 		};
 		6327EEAA2118CEA90003915B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10C5768E8C209FBDAC72B7A7 /* Pods-SkylineTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4FN8272Q62;
 				INFOPLIST_FILE = SkylineTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -448,11 +714,13 @@
 		};
 		6327EEAB2118CEA90003915B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE6312FBC197BFA58D617116 /* Pods-SkylineTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4FN8272Q62;
 				INFOPLIST_FILE = SkylineTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -465,6 +733,7 @@
 		};
 		6327EEAD2118CEA90003915B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADE016FF0B80DDEC127422EA /* Pods-SkylineTestTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -484,6 +753,7 @@
 		};
 		6327EEAE2118CEA90003915B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0060DD5001A9E6D22B354044 /* Pods-SkylineTestTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -503,6 +773,7 @@
 		};
 		6327EEB02118CEA90003915B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE1C5A08ED8090CCA6F92453 /* Pods-SkylineTestUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4FN8272Q62;
@@ -521,6 +792,7 @@
 		};
 		6327EEB12118CEA90003915B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 661955B6C0B79AC3100F0129 /* Pods-SkylineTestUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4FN8272Q62;
