@@ -35,13 +35,6 @@
     [self.tripImageView addGestureRecognizer:tapGesture];
 }
 
-#pragma mark - Setter
-- (void)setImage:(UIImage *)image {
-    _image = image;
-    
-    self.tripImageView.image = image;
-}
-
 #pragma mark - Getter
 - (HenryPreviewImageView *)previewImageView {
     

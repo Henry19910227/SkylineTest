@@ -10,10 +10,6 @@
 
 @interface TripImageItemCell : UICollectionViewCell
 
-@property(nonatomic,copy)NSString *imageUrl;
-
-@property(nonatomic,strong)UIImage *image;
-
 @property (weak, nonatomic) IBOutlet UIImageView *tripImageView;
 
 + (instancetype)cellWithCollectionView:(UICollectionView *)collectionView indexPath:(NSIndexPath *)indexPath;
